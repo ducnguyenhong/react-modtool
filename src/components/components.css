@@ -1,0 +1,27 @@
+.result{
+    color: red;
+    font-size: 20px;
+    line-height: 33px;
+}
+h3{
+    font-weight: bold;
+    color: #2f187f;
+}
+.p-home{
+    color: #8022ad;
+    font-weight: bold;
+    width: 30%;
+    font-size: 20px;
+    margin: auto;
+    padding: 35px;
+    background-color: #d2f6ff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+}
+.h4-home{
+    font-weight: bold;
+    color: #2f187f;
+    margin: 70px;
+}
+.form3-div{margin: auto;}

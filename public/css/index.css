@@ -1,0 +1,64 @@
+/*Style CSS
+Code by Proton*/
+*{margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
+html,body{width: 100%; height: 100%;}
+body{
+    background: url(../images/bg.jpg)center center;
+    background-size: cover;
+}
+nav{background: #51347b!important}
+nav ul li{margin: 0 20px;}
+.nav-link:hover{color: #1de6ff!important;}
+nav.navbar.navbar-expand-lg.navbar-light div.collapse.navbar-collapse ul li a.nav-link{color: white;}
+.mod-calculator,.mod-inverse,.mod-primitive-root,.mod-logarit,.encrypt-RSA,.encrypt-DH,.encrypt-E{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+#form1,#form2,#form3,#form4,#form5,#form6,#form7{   
+    padding: 30px;
+    background-color: #d2f6ff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+}
+.line-height{
+    line-height: 35px;
+}
+.button1{
+    margin:auto;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+}
+nav.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(255, 255, 255, 0.85);
+    background: #ffffffc2;
+}
+.active{font-weight: bold; color: #1de6ff!important;}
+footer{position: fixed;
+    bottom: 20px;
+    padding: 20px;
+    left: 33%;
+    width: 34%;}
+.author{
+    color: #2f187f;
+    font-weight: bold!important;
+    font-weight: 500;
+}
+footer p{color: #2f187f;}
+a.author:hover {
+    color: #2f187f;
+    text-decoration: none;
+}
+.mobile{display: none;}
+#p-key-RSA{
+    color: green;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0 40px 0;
+}
+.mg-center{
+    margin: auto;
+}
